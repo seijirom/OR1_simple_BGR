@@ -1,0 +1,5 @@
+---
+target: bgr_simple
+reference: bgr_simple_reference.cir
+netlist: C:/Users/seijirom/Dropbox/MakeLSI/2020年9月/BGR/bgr_simple_tb.net
+schematic: C:/Users/seijirom/Dropbox/MakeLSI/2020年9月/BGR/bgr_simple_tb.asc
