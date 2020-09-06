@@ -1,0 +1,308 @@
+* Created by KLayout
+
+* cell bgr_simple
+.SUBCKT bgr_simple
+* net 1 Vout
+* net 2 Gnd
+* net 27 SUBSTRATE
+* cell instance $3 r180 *1 57.5,-157.5
+X$3 13 2 pchdiode
+* cell instance $4 r180 *1 57.5,-123
+X$4 13 2 pchdiode
+* cell instance $5 r180 *1 39.5,-151.5
+X$5 12 26 11 3 diodeblock
+* cell instance $6 r0 *1 3,-78
+X$6 27 4 5 3 nch1x20
+* cell instance $7 r0 *1 12,-43
+X$7 9 4 10 9 pch1x20
+* cell instance $8 r0 *1 3,-43
+X$8 9 4 4 9 pch1x20
+* cell instance $9 r0 *1 21,-78
+X$9 27 5 5 6 nch1x20
+* cell instance $10 r0 *1 30,-78
+X$10 27 5 5 6 nch1x20
+* cell instance $11 r0 *1 12,-78
+X$11 27 10 5 12 nch1x20
+* cell instance $13 r0 *1 30,-43
+X$13 9 10 5 9 pch1x20
+* cell instance $14 r0 *1 21,-43
+X$14 9 10 5 9 pch1x20
+* device instance $1 r0 *1 -87.5,-147.5 RES
+R$1 71 23 800
+* device instance $2 r0 *1 -83.5,-147.5 RES
+R$2 71 65 800
+* device instance $3 r0 *1 -79.5,-147.5 RES
+R$3 99 65 800
+* device instance $4 r0 *1 -75.5,-147.5 RES
+R$4 99 70 800
+* device instance $5 r0 *1 -71.5,-147.5 RES
+R$5 24 70 800
+* device instance $6 r0 *1 -67.5,-147.5 RES
+R$6 24 69 800
+* device instance $7 r0 *1 -63.5,-147.5 RES
+R$7 102 69 800
+* device instance $8 r0 *1 -59.5,-147.5 RES
+R$8 102 68 800
+* device instance $9 r0 *1 -55.5,-147.5 RES
+R$9 101 68 800
+* device instance $10 r0 *1 -51.5,-147.5 RES
+R$10 101 25 800
+* device instance $11 r0 *1 -47.5,-147.5 RES
+R$11 105 25 800
+* device instance $12 r0 *1 -43.5,-147.5 RES
+R$12 105 67 800
+* device instance $13 r0 *1 -39.5,-147.5 RES
+R$13 100 67 800
+* device instance $14 r0 *1 -35.5,-147.5 RES
+R$14 100 66 800
+* device instance $15 r0 *1 -31.5,-147.5 RES
+R$15 2 66 800
+* device instance $16 r0 *1 -27.5,-147.5 RES
+R$16 91 11 800
+* device instance $17 r0 *1 -23.5,-147.5 RES
+R$17 91 63 800
+* device instance $18 r0 *1 -19.5,-147.5 RES
+R$18 98 63 800
+* device instance $19 r0 *1 -15.5,-147.5 RES
+R$19 98 64 800
+* device instance $20 r0 *1 -11.5,-147.5 RES
+R$20 26 64 800
+* device instance $21 r0 *1 166.5,-147.5 RES
+R$21 94 19 800
+* device instance $22 r0 *1 162.5,-147.5 RES
+R$22 94 59 800
+* device instance $23 r0 *1 158.5,-147.5 RES
+R$23 95 59 800
+* device instance $24 r0 *1 154.5,-147.5 RES
+R$24 95 60 800
+* device instance $25 r0 *1 150.5,-147.5 RES
+R$25 18 60 800
+* device instance $26 r0 *1 146.5,-147.5 RES
+R$26 18 52 800
+* device instance $27 r0 *1 142.5,-147.5 RES
+R$27 87 52 800
+* device instance $28 r0 *1 138.5,-147.5 RES
+R$28 87 58 800
+* device instance $29 r0 *1 70.5,-147.5 RES
+R$29 13 36 800
+* device instance $30 r0 *1 74.5,-147.5 RES
+R$30 88 36 800
+* device instance $31 r0 *1 78.5,-147.5 RES
+R$31 88 53 800
+* device instance $32 r0 *1 82.5,-147.5 RES
+R$32 89 53 800
+* device instance $33 r0 *1 86.5,-147.5 RES
+R$33 89 15 800
+* device instance $34 r0 *1 90.5,-147.5 RES
+R$34 103 15 800
+* device instance $35 r0 *1 94.5,-147.5 RES
+R$35 103 54 800
+* device instance $36 r0 *1 98.5,-147.5 RES
+R$36 90 54 800
+* device instance $37 r0 *1 102.5,-147.5 RES
+R$37 90 55 800
+* device instance $38 r0 *1 106.5,-147.5 RES
+R$38 16 55 800
+* device instance $39 r0 *1 110.5,-147.5 RES
+R$39 16 56 800
+* device instance $40 r0 *1 114.5,-147.5 RES
+R$40 92 56 800
+* device instance $41 r0 *1 118.5,-147.5 RES
+R$41 92 57 800
+* device instance $42 r0 *1 122.5,-147.5 RES
+R$42 93 57 800
+* device instance $43 r0 *1 126.5,-147.5 RES
+R$43 93 17 800
+* device instance $44 r0 *1 130.5,-147.5 RES
+R$44 104 17 800
+* device instance $45 r0 *1 134.5,-147.5 RES
+R$45 104 58 800
+* device instance $46 r0 *1 -87.5,-59.5 RES
+R$46 23 107 800
+* device instance $47 r0 *1 -83.5,-59.5 RES
+R$47 76 107 800
+* device instance $48 r0 *1 -79.5,-59.5 RES
+R$48 76 40 800
+* device instance $49 r0 *1 -75.5,-59.5 RES
+R$49 77 40 800
+* device instance $50 r0 *1 -71.5,-59.5 RES
+R$50 77 14 800
+* device instance $51 r0 *1 -67.5,-59.5 RES
+R$51 78 14 800
+* device instance $52 r0 *1 -63.5,-59.5 RES
+R$52 78 41 800
+* device instance $53 r0 *1 -59.5,-59.5 RES
+R$53 79 41 800
+* device instance $54 r0 *1 -55.5,-59.5 RES
+R$54 79 49 800
+* device instance $55 r0 *1 -51.5,-59.5 RES
+R$55 22 49 800
+* device instance $56 r0 *1 -47.5,-59.5 RES
+R$56 22 61 800
+* device instance $57 r0 *1 -43.5,-59.5 RES
+R$57 96 61 800
+* device instance $58 r0 *1 -39.5,-59.5 RES
+R$58 96 62 800
+* device instance $59 r0 *1 -35.5,-59.5 RES
+R$59 97 62 800
+* device instance $60 r0 *1 -31.5,-59.5 RES
+R$60 97 21 800
+* device instance $61 r0 *1 -27.5,-59.5 RES
+R$61 74 21 800
+* device instance $62 r0 *1 -23.5,-59.5 RES
+R$62 74 39 800
+* device instance $63 r0 *1 -19.5,-59.5 RES
+R$63 75 39 800
+* device instance $64 r0 *1 -15.5,-59.5 RES
+R$64 75 42 800
+* device instance $65 r0 *1 -11.5,-59.5 RES
+R$65 20 42 800
+* device instance $66 r0 *1 -7.5,-59.5 RES
+R$66 20 11 800
+* device instance $67 r0 *1 166.5,-59.5 RES
+R$67 19 37 800
+* device instance $68 r0 *1 162.5,-59.5 RES
+R$68 73 37 800
+* device instance $69 r0 *1 158.5,-59.5 RES
+R$69 73 38 800
+* device instance $70 r0 *1 154.5,-59.5 RES
+R$70 72 38 800
+* device instance $71 r0 *1 150.5,-59.5 RES
+R$71 72 7 800
+* device instance $72 r0 *1 146.5,-59.5 RES
+R$72 86 7 800
+* device instance $73 r0 *1 142.5,-59.5 RES
+R$73 86 51 800
+* device instance $74 r0 *1 138.5,-59.5 RES
+R$74 85 51 800
+* device instance $75 r0 *1 70.6,-59.5 RES
+R$75 8 50 800
+* device instance $76 r0 *1 74.6,-59.5 RES
+R$76 80 50 800
+* device instance $77 r0 *1 78.6,-59.5 RES
+R$77 80 43 800
+* device instance $78 r0 *1 82.6,-59.5 RES
+R$78 81 43 800
+* device instance $79 r0 *1 86.6,-59.5 RES
+R$79 81 6 800
+* device instance $80 r0 *1 90.5,-59.5 RES
+R$80 82 6 800
+* device instance $81 r0 *1 94.5,-59.5 RES
+R$81 82 44 800
+* device instance $82 r0 *1 98.5,-59.5 RES
+R$82 83 44 800
+* device instance $83 r0 *1 102.5,-59.5 RES
+R$83 83 45 800
+* device instance $84 r0 *1 106.5,-59.5 RES
+R$84 8 45 800
+* device instance $85 r0 *1 110.5,-59.5 RES
+R$85 106 7 800
+* device instance $86 r0 *1 114.5,-59.5 RES
+R$86 106 46 800
+* device instance $87 r0 *1 118.5,-59.5 RES
+R$87 84 46 800
+* device instance $88 r0 *1 122.5,-59.5 RES
+R$88 84 47 800
+* device instance $89 r0 *1 126.5,-59.5 RES
+R$89 8 47 800
+* device instance $90 r0 *1 130.5,-59.5 RES
+R$90 8 48 800
+* device instance $91 r0 *1 134.5,-59.5 RES
+R$91 85 48 800
+* device instance $92 r0 *1 64.4,-24.9 RES
+R$92 31 6 170
+* device instance $93 r0 *1 60.4,-24.9 RES
+R$93 31 29 170
+* device instance $94 r0 *1 56.4,-24.9 RES
+R$94 30 29 170
+* device instance $95 r0 *1 52.4,-24.9 RES
+R$95 30 28 170
+* device instance $96 r0 *1 48.4,-24.9 RES
+R$96 32 28 170
+* device instance $97 r0 *1 44.4,-25.9 RES
+R$97 32 1 150
+* device instance $98 r0 *1 59.5,-80 HRES
+R$98 35 9 262500
+* device instance $99 r0 *1 55.5,-80 HRES
+R$99 35 33 262500
+* device instance $100 r0 *1 51.5,-80 HRES
+R$100 34 33 262500
+* device instance $101 r0 *1 47.5,-80 HRES
+R$101 34 5 262500
+.ENDS bgr_simple
+
+* cell diodeblock
+* pin 
+* pin 
+* pin 
+* pin 
+.SUBCKT diodeblock 1 3 4 5
+* cell instance $1 r0 *1 -2.5,-71
+X$1 1 2 pchdiode
+* cell instance $2 r0 *1 25.5,-71
+X$2 1 2 pchdiode
+* cell instance $3 r0 *1 11,-71
+X$3 1 2 pchdiode
+* cell instance $4 r0 *1 25.5,-33.5
+X$4 1 2 pchdiode
+* cell instance $5 r0 *1 -2.5,-33.5
+X$5 1 2 pchdiode
+* cell instance $6 r0 *1 25.5,4
+X$6 1 3 pchdiode
+* cell instance $7 r0 *1 11,4
+X$7 1 3 pchdiode
+* cell instance $8 r0 *1 -2.5,4
+X$8 1 3 pchdiode
+* cell instance $9 r0 *1 11,-33.5
+X$9 5 4 pchdiode
+.ENDS diodeblock
+
+* cell nch1x20
+* pin SUBSTRATE
+* pin 
+* pin 
+* pin 
+.SUBCKT nch1x20 1 2 3 4
+* net 1 SUBSTRATE
+* cell instance $1 r0 *1 0.5,-0.5
+X$1 4 2 3 1 Nch
+.ENDS nch1x20
+
+* cell Nch
+* pin 
+* pin 
+* pin 
+* pin SUBSTRATE
+.SUBCKT Nch 1 2 3 4
+* net 4 SUBSTRATE
+* device instance $1 r0 *1 2.5,13 NMOS
+M$1 1 3 2 4 NMOS L=1U W=20U AS=40P AD=40P PS=44U PD=44U
+.ENDS Nch
+
+* cell pchdiode
+* pin 
+* pin 
+.SUBCKT pchdiode 1 2
+* cell instance $1 r0 *1 2,1
+X$1 2 1 1 1 pch1x20
+.ENDS pchdiode
+
+* cell pch1x20
+* pin 
+* pin 
+* pin 
+* pin 
+.SUBCKT pch1x20 1 2 3 4
+* cell instance $1 r0 *1 1,2.5
+X$1 4 3 2 1 Pch
+.ENDS pch1x20
+
+* cell Pch
+* pin 
+* pin 
+* pin 
+* pin 
+.SUBCKT Pch 1 2 3 4
+* device instance $1 r0 *1 2.5,13 PMOS
+M$1 1 3 2 4 PMOS L=1U W=20U AS=40P AD=40P PS=44U PD=44U
+.ENDS Pch
