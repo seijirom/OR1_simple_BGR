@@ -1,6 +1,7 @@
 def rc_ext_settings
   same_circuits 'bgr_simple', 'BGR_SIMPLE'
   align
+  netlist.make_top_level_pins
   same_device_classes 'HRES', 'RES'
   same_device_classes 'RES', 'RES'
   tolerance 'HRES', 'R', relative: 0.1

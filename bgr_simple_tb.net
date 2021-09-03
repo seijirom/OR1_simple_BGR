@@ -1,10 +1,10 @@
 * Z:\home\seijirom\work\2021_9\OR1_simple_BGR\bgr_simple_tb.asc
-V1 N001 0 10
+V1 N001 0 5
 R1 N002 0 1Meg
-XX1 N001 N002 N001 bgr_simple
+XX1 N001 N002 N001 N003 N004 N005 N006 bgr_simple
 
 * block symbol definitions
-.subckt bgr_simple vin vout Rex
+.subckt bgr_simple vin vout Rex D R1 R2 R3
 M1 N003 N002 vin vin pch l=1u w=20u m=2
 M2 N002 N001 vin vin pch l=1u w=20u
 M3 N001 N001 vin vin pch l=1u w=20u
